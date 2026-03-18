@@ -1,5 +1,5 @@
 services:
-  - type: static
+  - type: static_site
     name: futurepath-ai
     env: static
     buildCommand: npm install && npm run build
