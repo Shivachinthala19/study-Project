@@ -1,10 +1,9 @@
 services:
   - type: web
     name: futurepath-ai
-    runtime: static
+    env: static
     buildCommand: npm install && npm run build
     publishDir: dist
-    autoDeploy: true
     domains:
       - futurepath.com
       - www.futurepath.com
