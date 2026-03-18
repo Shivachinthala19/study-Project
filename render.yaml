@@ -1,7 +1,7 @@
 services:
-  - type: static_site
+  - type: web
     name: futurepath-ai
-    env: static
+    runtime: static
     buildCommand: npm install && npm run build
     publishDir: dist
     autoDeploy: true
